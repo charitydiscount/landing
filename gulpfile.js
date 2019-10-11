@@ -95,12 +95,15 @@ function clean() {
 
 function modules() {
   return gulp
-    .src('./node_modules/bootstrap-css-only/css/bootstrap.min.css')
-    // .pipe(
-    //   purgecss({
-    //     content: ['./index.html'],
-    //   })
-    // )
+    .src('./node_modules/bootstrap/dist/css/bootstrap.min.css')
+    .pipe(
+      purgecss({
+        content: [
+          './index.html',
+          './node_modules/bootstrap/dist/js/bootstrap.min.js',
+        ],
+      })
+    )
     .pipe(gulp.dest('./vendor/bootstrap'));
 }
 
