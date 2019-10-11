@@ -1,0 +1,47 @@
+{
+  "title": "CharityDiscount Landing Page",
+  "name": "charitydiscount-landing",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch",
+    "build": "gulp"
+  },
+  "description": "Landing page showcasing the main features of CharityDiscount.",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template",
+    "charitydiscount"
+  ],
+  "homepage": "https://charitydiscount.ro",
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)",
+    "CharityDiscount"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+  },
+  "devDependencies": {
+    "bootstrap-css-only": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-header": "^2.0.9",
+    "gulp-html-i18n": "^0.15.0",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "merge-stream": "^2.0.0"
+  }
+}

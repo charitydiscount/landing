@@ -1,0 +1,55 @@
+{
+  "brandName": "CharityDiscount",
+  "metaDescription": "Descoperă sute de magazine online, cumpără cu încredere, adună cashback, contribuie la cauze caritabile sau retrage. Totul prin intermediul CharityDiscount",
+  "headings": {
+    "what": "Ce este",
+    "how": "Cum funcționează"
+  },
+  "motto": "Sute de magazine, milioane de produse, un singur țel!",
+  "join": "Alătură-te acum",
+  "download": {
+    "heading": "Descoperă tot ce are de oferit",
+    "subheading": "CharityDiscount este mai mult decat o platformă, este un stil de viață. Alătură-te acum!"
+  },
+  "what": {
+    "heading": "Ce este CharityDiscount",
+    "subheading1": "Pe scurt, CharityDiscount este companionul tău pentru cumpărături online.",
+    "subheading2": "In plus, îți dă puterea sa faci lumea un loc mai bun.",
+    "shopping": {
+      "heading": "Shopping online",
+      "description": "Alege dintre sutele de magazine partenere și fii la curent cu toate promoțiile acestora"
+    },
+    "cashback": {
+      "heading": "Cashback",
+      "description": "Cumperi produsele favorite, exact ca înainte, dar primești o parte din suma cheltuită înapoi. Atât de simplu"
+    },
+    "charity": {
+      "heading": "Cauze caritabile",
+      "description": "Donezi fără niciun efort suplimentar, atât financiar cat si temporal"
+    },
+    "trust": {
+      "heading": "Explorează cu încredere",
+      "description": "Cumpără de la magazine noi fără griji. Te poți baza atât pe platforma CharityDiscount, cât și pe review-urile altor utilizatori"
+    }
+  },
+  "how": {
+    "heading": "Cum funcționează CharityDiscount",
+    "steps": {
+      "1": "Te înregistrezi",
+      "2": "Cauți magazinul sau produsele dorite",
+      "3": "Accesezi site-ul magazinului prin intermediul CharityDiscount",
+      "4": "Cumperi exact ca până acum",
+      "5": "Primești cashback pe baza cumpărăturilor făcute",
+      "6": "Cashback-ul obținut fie il donezi, fie il retragi"
+    }
+  },
+  "social": {
+    "heading": "Sunt diferite moduri de a te implica",
+    "subheading": "Chiar și un simplu like poate face diferența"
+  },
+  "footer": {
+    "rights": "Toate drepturile rezervate",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni"
+  }
+}

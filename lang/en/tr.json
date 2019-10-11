@@ -1,0 +1,55 @@
+{
+  "brandName": "CharityDiscount",
+  "metaDescription": "Discover hundreds of online stores, shop with confidence, rack up cashback, contribute to charity or withdraw. All within CharityDiscount",
+  "headings": {
+    "what": "What is it?",
+    "how": "How it works"
+  },
+  "motto": "Hundreds of stores, millions of products, one reason!",
+  "join": "Join now",
+  "download": {
+    "heading": "Discover all the features it has to offer",
+    "subheading": "CharityDiscount is more than a platform, it is a lifestyle. Join now!"
+  },
+  "what": {
+    "heading": "What CharityDiscount Is",
+    "subheading1": "Long story short, CharityDiscount is your online shopping companion.",
+    "subheading2": "Additionally, it empowers you to help building a more meaningful world.",
+    "shopping": {
+      "heading": "Online Shopping",
+      "description": "Choose from hundreds of shops and keep up-to date with the latest promotions"
+    },
+    "cashback": {
+      "heading": "Cashback",
+      "description": "Buy whatever you wish, just like before, and get paid back. It's that simple"
+    },
+    "charity": {
+      "heading": "Charity Causes",
+      "description": "Contribute to charity effortlessly, straight through the platform. No additional money or time needed"
+    },
+    "trust": {
+      "heading": "Explore with Confidence",
+      "description": "Buy from new shops with no worries. You can rely on CharityDiscount and on the reviews of other shoppers"
+    }
+  },
+  "how": {
+    "heading": "How CharityDiscount Works",
+    "steps": {
+      "1": "Register",
+      "2": "Look for the shop or products you want",
+      "3": "Open the shop's website from CharityDiscount",
+      "4": "Buy just like before",
+      "5": "Get paid (cashback) based on your purchases",
+      "6": "The received cashback can be donated or withdrawn"
+    }
+  },
+  "social": {
+    "heading": "There are other ways to contribute",
+    "subheading": "Even a simple like can make all the difference"
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}
