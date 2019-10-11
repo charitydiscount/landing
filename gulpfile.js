@@ -98,10 +98,8 @@ function modules() {
     .src('./node_modules/bootstrap/dist/css/bootstrap.min.css')
     .pipe(
       purgecss({
-        content: [
-          './index.html',
-          './node_modules/bootstrap/dist/js/bootstrap.min.js',
-        ],
+        content: ['./index.html'],
+        whitelist: ['show'],
       })
     )
     .pipe(gulp.dest('./vendor/bootstrap'));
