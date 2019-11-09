@@ -11,6 +11,10 @@
     &:focus {
       color: darken($theme-primary, 10%);
     }
+    .logo {
+      filter: invert(11%) sepia(96%) saturate(7490%) hue-rotate(359deg) brightness(92%) contrast(110%);
+      -webkit-filter: invert(11%) sepia(96%) saturate(7490%) hue-rotate(359deg) brightness(92%) contrast(110%);
+    }
   }
   .navbar-toggler {
     font-size: 12px;
@@ -51,6 +55,10 @@
       &:focus {
         color: white;
       }
+      .logo {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+        -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+      }
     }
     .navbar-nav > li > a,
     .navbar-nav > li > a:focus {
@@ -84,6 +92,10 @@
       .navbar-nav > .nav-item > .btn:hover {
         color: white;
         background-color: $theme-secondary;
+      }
+      .logo {
+        filter: invert(11%) sepia(96%) saturate(7490%) hue-rotate(359deg) brightness(92%) contrast(110%);
+        -webkit-filter: invert(11%) sepia(96%) saturate(7490%) hue-rotate(359deg) brightness(92%) contrast(110%);
       }
     }
   }
