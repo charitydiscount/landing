@@ -50,7 +50,7 @@ section {
 }
 
 section h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #mainNav {
@@ -213,7 +213,7 @@ header.masthead .device-container {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   header.masthead .device-container {
     max-width: 325px;
@@ -227,7 +227,7 @@ section.download {
 }
 
 section.download h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 0;
 }
 
@@ -265,7 +265,7 @@ section.download .badges .badge-link .btn {
 
 @media (min-width: 768px) {
   section.download h2 {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
@@ -329,7 +329,7 @@ section.cta .cta-content {
 }
 
 section.cta .cta-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   max-width: 800px;
   margin-top: 0;
   margin-bottom: 25px;
@@ -338,7 +338,7 @@ section.cta .cta-content h2 {
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
