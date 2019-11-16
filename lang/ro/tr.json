@@ -14,7 +14,7 @@
   "what": {
     "heading": "Ce este CharityDiscount",
     "subheading1": "Pe scurt, CharityDiscount este companionul tău pentru cumpărături online.",
-    "subheading2": "In plus, îți dă puterea sa faci lumea un loc mai bun.",
+    "subheading2": "In plus, îți dă puterea să faci lumea un loc mai bun.",
     "shopping": {
       "heading": "Shopping online",
       "description": "Alege dintre sutele de magazine partenere și fii la curent cu toate promoțiile acestora"
@@ -25,7 +25,7 @@
     },
     "charity": {
       "heading": "Cauze caritabile",
-      "description": "Donezi fără niciun efort suplimentar, atât financiar cat si temporal"
+      "description": "Donezi fără niciun efort suplimentar, atât financiar cât și temporal"
     },
     "trust": {
       "heading": "Explorează cu încredere",
@@ -40,7 +40,7 @@
       "3": "Accesezi site-ul magazinului prin intermediul CharityDiscount",
       "4": "Cumperi exact ca până acum",
       "5": "Primești cashback pe baza cumpărăturilor făcute",
-      "6": "Cashback-ul obținut fie il donezi, fie il retragi"
+      "6": "Cashback-ul obținut fie îl donezi, fie îl retragi"
     }
   },
   "social": {
