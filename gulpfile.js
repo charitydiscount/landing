@@ -105,9 +105,17 @@ function modules() {
     .pipe(gulp.dest('./vendor/bootstrap'));
 }
 
+function modulesDev() {
+  return gulp
+    .src('./node_modules/bootstrap/dist/css/bootstrap.min.css')
+    .pipe(gulp.dest('./vendor/bootstrap'));
+}
+
 const vendor = gulp.series(clean, modules);
+const vendorDev = gulp.series(clean, modulesDev)
 const build = gulp.series(vendor, gulp.parallel(css, js), translate);
-const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
+const dev = gulp.series(vendorDev, gulp.parallel(css, js), translate);
+const watch = gulp.series(dev, gulp.parallel(watchFiles, browserSync));
 
 exports.css = css;
 exports.js = js;
