@@ -53,6 +53,10 @@ section h2 {
   font-size: 40px;
 }
 
+hr {
+  margin: 2rem auto;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
