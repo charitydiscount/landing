@@ -1,250 +1,318 @@
 <!DOCTYPE html>
 <html lang="${{ _lang_ }}$">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <meta name="description" content="${{ tr.metaDescription }}$" />
+    <meta name="author" content="CharityDiscount" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" href="img/favicon.png" type="image/png" />
-  <meta name="description" content="${{ tr.metaDescription }}$" />
-  <meta name="author" content="CharityDiscount" />
+    <title>CharityDiscount - Empowering Charity</title>
 
-  <title>CharityDiscount - Empowering Charity</title>
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" inline />
+    <link href="css/charity-discount.min.css" rel="stylesheet" inline />
+    <link href="css/icomoon.css" rel="stylesheet" inline />
+    <script src="js/redirect.min.js" inline></script>
+  </head>
 
-  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" inline />
-  <link href="css/charity-discount.min.css" rel="stylesheet" inline />
-  <link href="css/icomoon.css" rel="stylesheet" inline />
-  <script src="js/redirect.min.js" inline></script>
-</head>
-
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo" src="img/icon-red.svg" alt=""
-          height="48px" />
-        <strong>${{ tr.brandName }}$</strong></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="icon-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">${{ tr.headings.what }}$</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#cta">${{ tr.headings.how }}$</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-outline" href="/app">Login</a>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle btn" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false" aria-label="Change language">
-              <i class="icon-sphere" style="font-size: 1rem;"></i>
-              <span class="caret"></span></a>
-            <ul class="dropdown-menu p-2">
-              <li><a href="/ro">RO</a></li>
-              <li><a href="/en">EN</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5">${{ tr.motto }}$</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">${{ tr.join }}$!</a>
-          </div>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          ><img class="logo" src="img/icon-red.svg" alt="" height="48px" />
+          <strong>${{ tr.brandName }}$</strong></a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="icon-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features"
+                >${{ tr.headings.what }}$</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#cta"
+                >${{ tr.headings.how }}$</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline" href="/app">Login</a>
+            </li>
+            <li class="dropdown">
+              <a
+                class="dropdown-toggle btn"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-label="Change language"
+              >
+                <i class="icon-sphere" style="font-size: 1rem;"></i>
+                <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu p-2">
+                <li><a href="/ro">RO</a></li>
+                <li><a href="/en">EN</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device">
-              <div class="screen">
-                <img src="img/mobile-min.png" class="img-fluid p-4" alt="Mobile phone with CharityDiscount app" />
-              </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">${{ tr.motto }}$</h1>
+              <a
+                href="#download"
+                class="btn btn-outline btn-xl js-scroll-trigger"
+                >${{ tr.join }}$!</a
+              >
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <section class="download bg-primary text-center" id="download">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">${{ tr.download.heading }}$</h2>
-          <p>${{ tr.download.subheading }}$</p>
-          <div class="badges pt-4">
-            <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.clover.charity_discount"
-              target="_blank" rel="noopener noreferrer">
-              <img src="img/mobile/google-play-badge.svg" alt="google play badge" />
-            </a>
-            <a class="badge-link" href="https://apps.apple.com/us/app/charitydiscount/id1492115913?ls=1" target="_blank"
-              rel="noopener noreferrer"><img src="img/mobile/app-store-badge.svg" alt="app store badge" />
-            </a>
-            <a class="badge-link" href="/app">
-              <div class="btn">
-                <div class="mt-1">
-                  <i class="icon-embed2 pr-3 pl-2 pt-1"></i>Webapp
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="features" id="features">
-    <div class="container">
-      <div class="section-heading text-center">
-        <h2>${{ tr.what.heading }}$</h2>
-        <p class="text-muted">
-          ${{ tr.what.subheading1 }}$
-          <br />
-          ${{ tr.what.subheading2 }}$
-        </p>
-      </div>
-      <hr />
-      <div class="row mb-5">
-        <iframe width="672" height="378" src="https://www.youtube.com/embed/svQ4_vmpeiM" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-          class="mx-auto"></iframe>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col-lg-4 mx-auto">
-          <div class="device-container">
-            <div class="device">
-              <div class="screen">
-                <img src="img/mobile-min.png" class="img-fluid p-3" alt="Mobile phone with CharityDiscount app" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 my-auto">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-sphere text-primary"></i>
-                  <h3>${{ tr.what.shopping.heading }}$</h3>
-                  <p class="text-muted">
-                    ${{ tr.what.shopping.description }}$
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-credit-card text-primary"></i>
-                  <h3>${{ tr.what.cashback.heading }}$</h3>
-                  <p class="text-muted">
-                    ${{ tr.what.cashback.description }}$
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-gift text-primary"></i>
-                  <h3>${{ tr.what.charity.heading }}$</h3>
-                  <p class="text-muted">
-                    ${{ tr.what.charity.description }}$
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-lock text-primary"></i>
-                  <h3>${{ tr.what.trust.heading }}$</h3>
-                  <p class="text-muted">${{ tr.what.trust.description }}$</p>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device">
+                <div class="screen">
+                  <img
+                    src="img/${{ tr.shops }}$-min.png"
+                    class="img-fluid p-4"
+                    alt="Mobile phone with CharityDiscount app"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <section class="cta" id="cta">
-    <div class="cta-content">
-      <div class="container text-white">
-        <h2>${{ tr.how.heading }}$</h2>
-        <ul>
-          <li>${{ tr.how.steps.1 }}$</li>
-          <li>${{ tr.how.steps.2 }}$</li>
-          <li>${{ tr.how.steps.3 }}$</li>
-          <li>${{ tr.how.steps.4 }}$</li>
-          <li>${{ tr.how.steps.5 }}$</li>
-          <li>${{ tr.how.steps.6 }}$</li>
-        </ul>
-        <a href="/app" class="btn btn-outline btn-xl">${{ tr.join }}$!</a>
+    <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">${{ tr.download.heading }}$</h2>
+            <p>${{ tr.download.subheading }}$</p>
+            <div class="badges pt-4">
+              <a
+                class="badge-link"
+                href="https://play.google.com/store/apps/details?id=com.clover.charity_discount"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="img/mobile/google-play-badge.svg"
+                  alt="google play badge"
+                />
+              </a>
+              <a
+                class="badge-link"
+                href="https://apps.apple.com/us/app/charitydiscount/id1492115913?ls=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="img/mobile/app-store-badge.svg"
+                  alt="app store badge"
+                />
+              </a>
+              <a class="badge-link" href="/app">
+                <div class="btn">
+                  <div class="mt-1">
+                    <i class="icon-embed2 pr-3 pl-2 pt-1"></i>Webapp
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="overlay"></div>
-  </section>
+    </section>
 
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>${{ tr.social.heading }}$</h2>
-      <p class="text-muted">${{ tr.social.subheading }}$</p>
-      <ul class="list-inline list-social">
-        <!-- <li class="list-inline-item social-twitter">
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>${{ tr.what.heading }}$</h2>
+          <p class="text-muted">
+            ${{ tr.what.subheading1 }}$
+            <br />
+            ${{ tr.what.subheading2 }}$
+          </p>
+        </div>
+        <hr />
+        <div class="row mb-5">
+          <iframe
+            width="672"
+            height="378"
+            src="https://www.youtube.com/embed/svQ4_vmpeiM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="mx-auto"
+          ></iframe>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-lg-4 mx-auto">
+            <div class="device-container">
+              <div class="device">
+                <div class="screen">
+                  <img
+                    src="img/${{ tr.products }}$-min.png"
+                    class="img-fluid p-3"
+                    alt="Mobile phone with CharityDiscount app"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-sphere text-primary"></i>
+                    <h3>${{ tr.what.shopping.heading }}$</h3>
+                    <p class="text-muted">
+                      ${{ tr.what.shopping.description }}$
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-credit-card text-primary"></i>
+                    <h3>${{ tr.what.cashback.heading }}$</h3>
+                    <p class="text-muted">
+                      ${{ tr.what.cashback.description }}$
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-gift text-primary"></i>
+                    <h3>${{ tr.what.charity.heading }}$</h3>
+                    <p class="text-muted">
+                      ${{ tr.what.charity.description }}$
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-lock text-primary"></i>
+                    <h3>${{ tr.what.trust.heading }}$</h3>
+                    <p class="text-muted">${{ tr.what.trust.description }}$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="cta-content">
+        <div class="container text-white">
+          <h2>${{ tr.how.heading }}$</h2>
+          <ul>
+            <li>${{ tr.how.steps.1 }}$</li>
+            <li>${{ tr.how.steps.2 }}$</li>
+            <li>${{ tr.how.steps.3 }}$</li>
+            <li>${{ tr.how.steps.4 }}$</li>
+            <li>${{ tr.how.steps.5 }}$</li>
+            <li>${{ tr.how.steps.6 }}$</li>
+          </ul>
+          <a href="/app" class="btn btn-outline btn-xl">${{ tr.join }}$!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>${{ tr.social.heading }}$</h2>
+        <p class="text-muted">${{ tr.social.subheading }}$</p>
+        <ul class="list-inline list-social">
+          <!-- <li class="list-inline-item social-twitter">
             <a href="#">
               <i class="icon-twitter"></i>
             </a>
           </li> -->
-        <li class="list-inline-item social-facebook" target="_blank" rel="noopener noreferrer">
-          <a href="#">
-            <i class="icon-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-instagram">
-          <a href="https://www.instagram.com/charitydiscount" target="_blank" rel="noopener noreferrer">
-            <i class="icon-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </section>
+          <li
+            class="list-inline-item social-facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <a href="#">
+              <i class="icon-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-instagram">
+            <a
+              href="https://www.instagram.com/charitydiscount"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="icon-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; CharityDiscount 2019. ${{ tr.footer.rights }}$.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="/privacy">${{ tr.footer.privacy }}$</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="/tos">${{ tr.footer.terms }}$</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="/faq">FAQ</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+    <footer>
+      <div class="container">
+        <p>&copy; CharityDiscount 2020. ${{ tr.footer.rights }}$.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="/privacy">${{ tr.footer.privacy }}$</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/tos">${{ tr.footer.terms }}$</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/faq">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
-    crossorigin="anonymous"></script>
-  <script src="js/charity-discount.min.js" inline></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/charity-discount.min.js" inline></script>
+  </body>
 </html>
